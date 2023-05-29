@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div className='text-white flex justify-between items-center max-w-[1240px] h-24 mx-auto px-4'>
-            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>NEXT.</h1>
+            <h1 className='w-auto text-3xl font-bold text-[#00df9a] cursor-pointer'>NEXT.</h1>
             <ul className='hidden md:flex'>
                 <li className='p-4 hover:text-[#00df9a] ease-in duration-200 cursor-pointer font-semibold'>Home</li>
                 <li className='p-4 hover:text-[#00df9a] ease-in duration-200 cursor-pointer font-semibold'>Company</li>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import PrimaryButton from './PrimaryButton';
 
 export const Hero = () => {
     return (
@@ -29,7 +30,11 @@ export const Hero = () => {
                     />
                 </div>
                 <p className='md:text-2xl text-xl font-bold text-gray-500 px-2 sm:px-0'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
-                <button className='bg-[#00df9a] w-[200px] rounded-md mx-auto my-6 py-3 font-medium text-black'>Get Started</button>
+                <PrimaryButton 
+                    text={'Get Started'}
+                    textColor={'text-black'}
+                    bgColor={'#00df9a'}
+                />
             </div>
         </div>
     )
